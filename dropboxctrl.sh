@@ -119,7 +119,6 @@ function dropboxstatus () {
 				mailalert
 			else
 				count=$((count+1))
-				echo $count
 				echo $count > $countFile
 			fi
 		fi
